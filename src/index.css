@@ -4,3 +4,28 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+
+.Navigate {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.Navigate li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.Navigate a {
+    text-decoration: none;
+    color: black;
+}
+
+.Navigate a:hover,
+.Navigate a:active,
+.Navigate a.active {
+    color: #fa923f;
+
+}
